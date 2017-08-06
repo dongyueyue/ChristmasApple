@@ -1,0 +1,154 @@
+.container{
+	width: 640px;
+	margin: 0 auto;
+	height:100%;
+	padding: 15px;
+	box-sizing: border-box;
+	background-size: 100% 100%;
+	font-family: "microsoft yahei";
+}
+.canvasBox{
+	position: relative;
+}
+.topBox{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.pageBorder{
+	position: fixed;
+	width: 640px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.pageBorder>img{
+	width: 100%;
+	height: 100%;
+}
+.canvasBox{
+	margin: 0 auto;
+}
+#canvas{
+	border: 1px solid #BDBDBD;
+}
+.chrismasOld{
+	position: fixed;
+	top: 0px;
+	right: 30px;
+}
+.show{
+	display: block;
+}
+.hidden{
+	display: none;
+}
+.merryChrismas{
+	position: absolute;
+	top: 430px;
+	right: 157px;
+}
+.merryChrismasAni{
+	animation: scaleAni 1s ease-in;
+	-webkit-animation: scaleAni 1s ease-in;
+	-moz-animation: scaleAni 1s ease-in;
+	-ms-animation: scaleAni 1s ease-in;
+	-o-animation: scaleAni 1s ease-in;
+}
+.dislogBox{
+	background-image: url(../images/dialogBox.png);
+	position: absolute;
+	top: 675px;
+	left: 50%;
+	margin-left: -133px;
+	color: #d61b21;
+	font-size: 24px;
+	padding: 0px 20px;
+	line-height: 55px;
+	width: 317px;
+	height: 55px;
+	box-sizing: border-box;
+}
+@keyframes scaleAni{
+	0%{transform: scale(0.1);right: 0px;}
+	50%{transform: scale(1.1);right: 80px;}
+	100%{transform: scale(1);right: 157px;}
+}
+@-webkit-keyframes scaleAni{
+	0%{-webkit-transform: scale(0.1);right: 0px;}
+	50%{-webkit-transform: scale(1.1);right: 80px;}
+	100%{-webkit-transform: scale(1);right: 157px;}
+}
+@-moz-keyframes scaleAni{
+	0%{-moz-transform: scale(0.1);right: 0px;}
+	50%{-moz-transform: scale(1.1);right: 80px;}
+	100%{-moz-transform: scale(1);right: 157px;}
+}
+@-ms-keyframes scaleAni{
+	0%{-ms-transform: scale(0.1);right: 0px;}
+	50%{-ms-transform: scale(1.1);right: 80px;}
+	100%{-ms-transform: scale(1);right: 157px;}
+}
+@-o-keyframes scaleAni{
+	0%{-o-transform: scale(0.1);right: 0px;}
+	50%{-o-transform: scale(1.1);right: 80px;}
+	100%{-o-transform: scale(1);right: 157px;}
+}
+
+.number{
+	background-color: #d61b21;
+    color: #ffffff;
+    font-size: 52px;
+    margin-left: 281px;
+    width: 78px;
+}
+.box{
+    position: fixed;
+    top: 852px;
+    left: 0;
+    z-index: 1002;
+    width: 100%;
+}
+.button{
+    height: 50px;
+	font-weight: bold;
+	color: #d61b21;
+	font-size: 24px;
+	text-align: center;
+}
+
+/*20161219 更新*/
+.btn-a2{
+    position: fixed;
+    top: 36px;
+    right: 34px;
+    z-index: 2000;
+}
+.rorateAni{
+	animation: rorate1 4s linear infinite;
+	-webkit-animation: rorate1 4s linear infinite;
+	-moz-animation: rorate1 4s linear infinite;
+	-ms-animation: rorate1 4s linear infinite;
+	-o-animation: rorate1 4s linear infinite;
+}
+@keyframes rorate1{
+	from{transform: rotate(0deg);}
+	to{transform: rotate(360deg);}
+}
+@-webkit-keyframes rorate1{
+	from{-webkit-transform: rotate(0deg);}
+	to{-webkit-transform: rotate(360deg);}
+}
+@-moz-keyframes rorate1{
+	from{-moz-transform: rotate(0deg);}
+	to{-moz-transform: rotate(360deg);}
+}
+@-ms-keyframes rorate1{
+	from{-ms-transform: rotate(0deg);}
+	to{-ms-transform: rotate(360deg);}
+}
+@-o-keyframes rorate1{
+	from{-o-transform: rotate(0deg);}
+	to{-o-transform: rotate(360deg);}
+}
